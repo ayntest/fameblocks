@@ -13,7 +13,7 @@ end
 
 minetest.register_node('fameblocks:hexagram', {
 	description = "Star of fame",
-	tiles = { '[combine:16x16:0,0='..base_texture..':0,0=hexagram_of_fame.png' },
+	tiles = { '[combine:16x16:0,0='..base_texture..':0,0=hexagram.png' },
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	sounds = default.node_sound_stone_defaults(),
